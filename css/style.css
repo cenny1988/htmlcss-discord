@@ -114,18 +114,7 @@ aside button{
     width: 35%;
 }
 
-.content-center{
-    /* debug */
-    height: 200px;
-    width: 200px;
-    background-color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.content{
+.content-box{
     /* debug */
     background-color: #fff;
     height: 100%;
