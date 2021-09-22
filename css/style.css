@@ -100,7 +100,7 @@ aside button{
 
 .col-left, .col-right{
     float: left;
-    height: 70vh;
+    height: 400px;
     position: relative;
     margin: 50px 0;
 }
