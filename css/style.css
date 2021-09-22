@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* regole generali */
 body{
     /* font neue helvetica aggiunda da cdn */
     font-family: 'Neue Helvetica', sans-serif;
@@ -17,4 +18,71 @@ body{
 
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 16px;
+}
+
+.center{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    /* debug */
+    /* background-color: red; */
+}
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+/* intestazione */
+nav{
+    background-color: #3161e0;
+    padding: 5px 0;
+    /* debug */
+    height: 70px;
+}
+#logoid{
+    object-fit: cover;
+    width: 100%;
+}
+.logo, .button-nav{
+    float: left;
+    height: 100%;
+    width: 15%;
+    /* debug */
+    /* background-color: aqua; */
+}
+.nav-main{
+    float: left;
+    height: 100%;
+    width: 70%;
+    background-color: red;
+}
+
+
+/* sezione jumbotron */
+.jumbotron{
+    height: 80vh;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+}
+.container-jumbotron{
+    color: #fff;
+    text-align: center;
+    padding: 10%;
+}
+.container-jumbotron h1{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.container-jumbotron p{
+    margin-bottom: 15px;
+}
+
+
+/* sezione main */
+main{
+    /* debug */
+    height: 250px;
+    background-color: antiquewhite;
 }
