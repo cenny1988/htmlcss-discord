@@ -17,7 +17,7 @@ body{
     font-family: 'Whitney Light', sans-serif;
 
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .center{
@@ -102,22 +102,32 @@ aside button{
     float: left;
     height: 70vh;
     position: relative;
+    margin: 50px 0;
 }
-
 .col-left{
     background-color: green;
-    width: 65%;
+    width: 55%;
 }
 
 .col-right{
     background-color: burlywood;
-    width: 35%;
+    width: 45%;
+}
+.content-box{
+    height: 100%;
+    padding-top: 50px;
+    /* debug */
+    /* background-color: #3161e0; */
+}
+.content-box h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.content-box img{
+    max-height: 100%;
 }
 
-.content-box{
-    /* debug */
-    background-color: #fff;
-    height: 100%;
-    width: 50%;
-    margin: 0 auto;
+/* sovrascrivo la sezione 2 con float right così da invertire la disposizione delle colonne */
+#section-2 .col-left, .col-right{
+    float: right;
 }
