@@ -38,24 +38,40 @@ nav{
     background-color: #3161e0;
     padding: 5px 0;
     /* debug */
-    height: 70px;
+    height: 60px;
 }
 #logoid{
     object-fit: cover;
-    width: 100%;
+    /* debug */
+    /* width: 100%; */
 }
-.logo, .button-nav{
+aside{
     float: left;
     height: 100%;
     width: 15%;
+    position: relative;
     /* debug */
     /* background-color: aqua; */
 }
-.nav-main{
+#nav-main{
     float: left;
     height: 100%;
     width: 70%;
-    background-color: red;
+    text-align: center;
+    /* debug */
+    /* background-color: red; */
+}
+#nav-main li{
+    display: inline-block;
+}
+#nav-main a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+aside button{
+    position: absolute;
+    right: 0;
 }
 
 
