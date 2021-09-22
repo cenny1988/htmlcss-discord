@@ -127,3 +127,12 @@ aside button{
 #section-2 .col-left, .col-right{
     float: right;
 }
+
+#section-4 .text-decoration{
+    text-align: center;
+    padding: 0 100px;
+}
+
+#section-2, #section-4{
+    background-color: #f6f6f6;
+}
