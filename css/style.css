@@ -61,6 +61,9 @@ aside{
     /* debug */
     /* background-color: red; */
 }
+#nav-main ul{
+    line-height: 60px;
+}
 #nav-main li{
     display: inline-block;
 }
@@ -158,6 +161,7 @@ button{
     border-radius: 25px;
     font-size: 15px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 /* footer */
