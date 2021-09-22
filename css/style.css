@@ -5,7 +5,16 @@
 }
 
 body{
-    background-color: antiquewhite;
+    /* font neue helvetica aggiunda da cdn */
+    font-family: 'Neue Helvetica', sans-serif;
+    font-family: 'Neue Helvetica Outline', sans-serif;
+
+    /* font whitney aggiunda da cdn */
+    font-family: 'Whitney', sans-serif;
+    font-family: 'Whitney Semibold', sans-serif;
+    font-family: 'Whitney Book', sans-serif;
+    font-family: 'Whitney Light', sans-serif;
+
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 16px;
 }
