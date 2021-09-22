@@ -105,19 +105,15 @@ aside button{
     margin: 50px 0;
 }
 .col-left{
-    background-color: green;
     width: 55%;
 }
 
 .col-right{
-    background-color: burlywood;
     width: 45%;
 }
 .content-box{
     height: 100%;
     padding-top: 50px;
-    /* debug */
-    /* background-color: #3161e0; */
 }
 .content-box h2{
     font-size: 30px;
