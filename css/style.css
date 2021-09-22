@@ -136,3 +136,26 @@ aside button{
 #section-2, #section-4{
     background-color: #f6f6f6;
 }
+
+.call{
+    text-align: center;
+}
+
+.call-title{
+    background-image: url(../img/stars.svg);
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 550px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+
+
+/* footer */
+footer{
+    /* debug */
+    height: 200px;
+    background-color: #23272a;
+}
