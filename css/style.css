@@ -36,34 +36,27 @@ body{
 /* intestazione */
 nav{
     background-color: #3161e0;
-    padding: 5px 0;
-    /* debug */
-    height: 60px;
+    height: 40px;
+    line-height: 40px;
 }
 #logoid{
     object-fit: cover;
-    /* debug */
-    /* width: 100%; */
+    float: left;
+}
+#btn-logo{
+    float: right;
 }
 aside{
-    float: left;
-    height: 100%;
     width: 15%;
-    position: relative;
-    /* debug */
-    /* background-color: aqua; */
 }
 #nav-main{
     float: left;
-    height: 100%;
     width: 70%;
     text-align: center;
-    /* debug */
-    /* background-color: red; */
 }
-#nav-main ul{
+/* #nav-main ul{
     line-height: 60px;
-}
+} */
 #nav-main li{
     display: inline-block;
 }
@@ -74,7 +67,6 @@ aside{
 }
 aside button{
     position: absolute;
-    right: 0;
 }
 
 
@@ -161,7 +153,7 @@ aside button{
 }
 button{
     background-color: #fff;
-    padding: 12px 35px;
+    padding: 12px 20px;
     border-radius: 25px;
     cursor: pointer;
     border: none;
